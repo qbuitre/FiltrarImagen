@@ -27,8 +27,8 @@ public class Lienzo extends JPanel {
 
     public Lienzo() throws MalformedURLException {
         try {
-        logo =  ImageIO.read(new URL("https://www.valenzueladelarze.cl/themes/valenzuela_0km_v1/assets/img/marcas/logo-volkswagen.jpg"));
-        imgOriginal =  ImageIO.read(new URL("https://www.masralyoum.net/temp/thumb/900x450_uploads,2020,11,07,c62934e8a4.jpg"));
+        logo =  ImageIO.read(new URL("https://cdn.iconscout.com/icon/free/png-256/volkswagen-51-202922.png"));
+        imgOriginal =  ImageIO.read(new URL("https://www.autopista.es/uploads/s1/78/78/25/5/vw-golf-r-2021-la-version-mas-potente-del-compacto-deportivo.jpeg"));
         this.setPreferredSize(new Dimension(imgOriginal.getWidth(), imgOriginal.getHeight()));
         
         } catch(IOException ex) {
